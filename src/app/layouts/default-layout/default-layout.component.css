@@ -1,0 +1,41 @@
+.default_layout_container {
+    display: grid;
+    grid-template-columns: 100px auto;
+    width: 100vw;
+    height: 80vh;
+}
+
+.nav {
+    grid-column: 1;
+    background-color: darkgreen;
+    padding: 10px;
+    font-size: 12px;;
+}
+.main_content {
+    grid-column: 2;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+.top {
+    padding: 20px;
+    grid-row: 1;
+    background-color: crimson;
+}
+.split_windows {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 2;
+}
+
+.left {
+    padding: 20px;
+    grid-column:1;
+    background-color: aqua;
+}
+
+.right {
+    padding: 20px;
+    grid-column: 2;
+    background-color: chartreuse;
+}

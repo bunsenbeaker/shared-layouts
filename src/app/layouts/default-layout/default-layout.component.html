@@ -1,0 +1,19 @@
+<div class="default_layout_container">
+    <div class="nav">
+        <router-outlet name="nav"></router-outlet>
+    </div>
+    <div class="main_content">
+        <div class="top">
+            <router-outlet name="top"></router-outlet>
+        </div>
+        <div class="split_windows">
+            <div class="left">
+                <router-outlet name='left' ></router-outlet>
+            </div>
+            <div class="right">
+                <router-outlet name='right' ></router-outlet>
+            </div>
+        </div>    
+    </div>
+    
+</div>

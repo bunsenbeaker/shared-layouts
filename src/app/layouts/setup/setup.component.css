@@ -1,0 +1,25 @@
+.setup_layout_container {
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-rows: auto 1fr;
+    grid-template-areas: "map rightop"
+                          "map rightbottom";
+    
+
+}
+
+.map {
+    grid-area: map;
+    background-color: darkred;
+}
+
+.top {
+    grid-area: rightop;
+    background-color: darkslateblue;
+}
+
+.bottom {
+    grid-area: rightbottom;
+    background-color: darkturquoise;
+
+}
