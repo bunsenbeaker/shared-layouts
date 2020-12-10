@@ -1,6 +1,6 @@
 .layout_container {
     display: grid;
-    height: 800px;
+    height: 100vh;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "main top"
                          "main bottom";
