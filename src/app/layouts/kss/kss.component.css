@@ -1,0 +1,24 @@
+.layout_container {
+    display: grid;
+    height: 800px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "main top"
+                         "main bottom";
+                            
+}
+
+.layout_main {
+    grid-area: main;
+    background-color: blueviolet;
+}
+
+.layout_top{
+    grid-area: top ;
+    background-color: coral;
+    overflow-y: hidden;
+}
+
+.layout_bottom {
+    grid-area: bottom;
+    background-color: darkred;
+}

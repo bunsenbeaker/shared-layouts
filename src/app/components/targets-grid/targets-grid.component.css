@@ -1,0 +1,9 @@
+.container {
+     
+    height: 100%;
+}
+
+.tablewrap {
+    height: 100%;
+    overflow-y: scroll;
+}

@@ -11,6 +11,12 @@ import { Kashit2Component } from './components/kashit2/kashit2.component';
 import { MatanComponent } from './components/matan/matan.component';
 import { NavComponent } from './components/nav/nav.component';
 import { RouterModule } from '@angular/router';
+import { SideComponent } from './components/side/side.component';
+import { HeaderComponent } from './components/header/header.component';
+import { TargetsGridComponent } from './components/targets-grid/targets-grid.component';
+import { EventsGridComponent } from './components/events-grid/events-grid.component';
+import { TargetDetailsComponent } from './components/target-details/target-details.component';
+import { TargetsTableComponent } from './components/targets-table/targets-table.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +26,13 @@ import { RouterModule } from '@angular/router';
     Kashit1Component,
     Kashit2Component,
     MatanComponent,
-    NavComponent
+    NavComponent,
+    SideComponent,
+    HeaderComponent,
+    TargetsGridComponent,
+    EventsGridComponent,
+    TargetDetailsComponent,
+    TargetsTableComponent
   ],
   imports: [
     BrowserModule,
