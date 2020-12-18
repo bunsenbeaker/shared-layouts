@@ -45,6 +45,11 @@ const routes: Routes = [
       path: 'details',
       component: TargetDetailsComponent,
       outlet: 'bottom'
+    },
+    {
+      path: 'fullscreen',
+      component: TargetsGridComponent,
+      outlet: 'fullscreen'
     }
    ]
  }

@@ -22,3 +22,9 @@
     grid-area: bottom;
     background-color: darkred;
 }
+
+.layout_full{
+    grid-row: 1/-1;
+    grid-column: 1/-1;
+    
+}

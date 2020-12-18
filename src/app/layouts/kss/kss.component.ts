@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
+import { ActivatedRoute, NavigationEnd, Router, RouterEvent } from '@angular/router';
+import {filter, map} from 'rxjs/operators';
 @Component({
   selector: 'app-kss',
   templateUrl: './kss.component.html',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class KssComponent implements OnInit {
 
-  constructor() { }
+  isFullscreen = false;
+  constructor(private router: Router) {
+
+   
+  }
 
   ngOnInit(): void {
   }
